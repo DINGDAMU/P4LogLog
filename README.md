@@ -53,7 +53,7 @@ and
     ./read_registers3.sh
    ```
  
- Register `hll\_register` is the LogLog register.
+ Register `hll_register` is the LogLog register.
 
- Register `hash\_register[0]` represents the value in LogLog register of last incoming packet, and  `hash\_register[1]` is the index in LogLog register. `hash\_register[2]` is the queries cardinality from LogLog register.
+ Register `hash_register[0]` represents the value in LogLog register of last incoming packet, and  `hash_register[1]` is the index in LogLog register. `hash_register[2]` is the queries cardinality from LogLog register.
 
