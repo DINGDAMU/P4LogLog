@@ -270,8 +270,9 @@ control ingress(inout headers hdr, inout metadata meta, inout standard_metadata_
         meta.power_sum = (meta.power_sum) * meta.decimal;
 
         meta.coef = meta.power_sum * 16;
-        // alpha_m = 0.39107
-        meta.car = (meta.coef * 32w400) >> 10;
+        // alpha_m = 0.39701
+        // alpha_m << 10 = 406
+        meta.car = (meta.coef * 32w406) >> 10;
         meta.car = (meta.car >> 10);
         hash_register.write((bit<32>)2, (bit<32>)meta.car);
 
