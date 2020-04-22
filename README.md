@@ -30,12 +30,11 @@ P4Entropy
     After this step you'll see the terminal of **mininet**
 2. Forwarding some packets in **mininet**
 
-Check the difference of entropy between
    ```
     pingall
     pingall
    ```
-and 
+or 
    ```
     h1 ping h2 -c 12 -i 0.1
    ```
