@@ -21,7 +21,7 @@ Installation
     ```
     I have already modified the default docker image to **dingdamu/p4app-ddos:nwhhd**, so `p4app` script can be used directly.
 
-P4Entropy
+P4LogLog
 --------------
 
 1.  ```
